@@ -35,7 +35,7 @@
   Beaglebone        2               platform/plat_beaglebone.h
   Beaglebone Black  3               platform/plat_beaglebone.h
 */
-#define RFM12B_BOARD        0
+#define RFM12B_BOARD        3
 
 /*
   The name of the driver within the kernel (e.g. shows up in logs, etc...)
@@ -71,7 +71,7 @@
      1 ... 433mhz
      2 ... 868mhz
 */
-#define RFM12B_DEFAULT_BAND_ID   2
+#define RFM12B_DEFAULT_BAND_ID   1
 
 /*
   The default bit rate to use for each RFM12B board. You can change the
@@ -103,7 +103,7 @@
   3) The driver can automatically send Jee ACKs for packets that
      request them (see RFM12B_DEFAULT_JEE_AUTOACK).
 */
-#define RFM12B_DEFAULT_JEE_ID    0
+#define RFM12B_DEFAULT_JEE_ID    31
 
 /*
   Whether the driver should automatically send ACKs for packets that
